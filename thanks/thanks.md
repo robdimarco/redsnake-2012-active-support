@@ -1,6 +1,11 @@
-!SLIDE 
-# Thanks! #
+!SLIDE
+# With ActiveSupport #
+* Practical Functions
+* Less Boilerplate
+* Happier Code
 
-## Links ##
-* [Official Docs](http://api.rubyonrails.org/classes/ActiveSupport.html)
-* [Presentation Repo](http://github.com/robdimarco/)
+!SLIDE
+
+# Thanks #
+  * [ActiveSupport Official Docs](http://api.rubyonrails.org/classes/ActiveSupport.html)
+  * [Presentation Git Project](http://github.com/robdimarco/)
