@@ -8,4 +8,4 @@
 
 # Thanks #
   * [ActiveSupport Official Docs](http://api.rubyonrails.org/classes/ActiveSupport.html)
-  * [Presentation Git Project](http://github.com/robdimarco/)
+  * [Presentation Git Project](http://github.com/robdimarco/redsnake-2012-active-support)
