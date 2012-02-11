@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
     blankslate (2.1.2.4)
     bluecloth (2.2.0)
     gli (1.5.1)
@@ -28,4 +31,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_support
   showoff

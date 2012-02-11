@@ -1,0 +1,9 @@
+{ "name": "Happier Coding with ActiveSupport", "sections": [ 
+  {"section":"title"}, 
+  {"section" : "why"}, 
+  {"section" : "about"}, 
+  {"section" : "utilities"}, 
+  {"section" : "core_extensions"}, 
+  {"section" : "patterns"}, 
+  {"section" : "thanks"}
+]}
