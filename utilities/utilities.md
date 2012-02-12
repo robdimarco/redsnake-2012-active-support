@@ -2,14 +2,14 @@
 !SLIDE smaller
 # ActiveSupport::StringInquirer #
     @@@ ruby
-    irb> require 'active_support'
-    => true
-    irb> role = ActiveSupport::StringInquirer.new "admin"
-    => "admin"
-    irb> role == "admin"
-    => true
-    irb> role.admin?
-    => true
+    require 'active_support'
+    # true
+    role = ActiveSupport::StringInquirer.new "admin"
+    # "admin"
+    role == "admin"
+    # true
+    role.admin?
+    #  true
 
 !SLIDE smaller
 .notes StringInquirer extends String
@@ -27,18 +27,18 @@
 # ActiveSupport::OrderedOptions #
 
     @@@ ruby
-    irb> require 'active_support'
-    => true
-    irb> oo = ActiveSupport::OrderedOptions.new
-    => #<OrderedHash {}>
-    irb> oo.role
-    => nil
-    irb> oo.role = "admin"
-    => "admin"
-    irb> oo.role
-    => "admin"
-    irb> oo[:role]
-    => "admin"
+    require 'active_support'
+    # true
+    oo = ActiveSupport::OrderedOptions.new
+    # #<OrderedHash {}>
+    oo.role
+    # nil
+    oo.role = "admin"
+    # "admin"
+    oo.role
+    # "admin"
+    oo[:role]
+    # "admin"
 
 !SLIDE smaller
 .notes OrderedOptions extends OrderedHash extends Hash.  Override the [] and []= to convert keys to symbols
