@@ -17,3 +17,13 @@
 # Hemingway #
 ![Ernest Hemingway](hemingway_pic.jpg)
 
+!SLIDE center
+# Haiku #
+
+An old silent pond...
+
+A frog jumps into the pond,
+
+splash! Silence again.
+
+<span class="smaller">Basho (1644-1694) </span>
