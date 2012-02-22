@@ -132,12 +132,18 @@
 
 <pre class="sh_ruby"><code>require 'active_support'
 # true
+
 role = ActiveSupport::StringInquirer.new "admin"
 # "admin"
+
+role.is_a? String
+# true
+
 role == "admin"
 # true
+
 role.admin?
-#  true</code></pre></div>
+# true</code></pre></div>
 </div><div class="slide" data-transition="none"><div class="content smaller" ref="utilities/utilities/2">
 <p class="notes">StringInquirer extends String</p>
 
