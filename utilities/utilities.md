@@ -4,12 +4,18 @@
     @@@ ruby
     require 'active_support'
     # true
+    
     role = ActiveSupport::StringInquirer.new "admin"
     # "admin"
+    
+    role.is_a? String
+    # true
+    
     role == "admin"
     # true
+    
     role.admin?
-    #  true
+    # true
 
 !SLIDE smaller
 .notes StringInquirer extends String
